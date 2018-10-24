@@ -1,0 +1,33 @@
+.app-footer {
+  display: flex;
+  background-color: #181e2c;
+  min-height: 45px;
+  grid-row: 4;
+  justify-content: flex-end;
+}
+
+.footer-help {
+  max-width: 55px;
+  width: 55px;
+  background-color: #1f2637;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-help-img:hover {
+  transform: scale(1.2);
+}
+
+.footer-settings {
+  max-width: 55px;
+  width: 55px;
+  background-color: #15a4fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-settings-img:hover {
+  transform: scale(1.2);
+}
